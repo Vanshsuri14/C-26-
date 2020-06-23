@@ -3,7 +3,7 @@ function checkForWinner() {
   var winner
   var playerOne = getPlayerOne() //playerOne is always blue!
     //console.log('checkForWinner, playerOne is: ', playerOne)
-var computer = (playerOne === "X") ? "O" : "X"
+var computer = (playerOne === "X") ? "O" : "X";
 //there are 8 winningCombos: 
   //three rows, three columns, two diagonals
   //refactor below.... this is not DRY!
